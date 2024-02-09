@@ -2,21 +2,60 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
-
+/* CONTAINER */
 .container{
     display: flex;
-    margin: 0%;
-    padding: 3%;
+    position: relative;
+    left: -31px;
+    top: -113px;
+    flex-direction: column; /* Posiciona el contenido en columna */
+    align-items:  flex-end; /* Centra el contenido horizontalmente */
 }
-
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.container3{
+    display: flex;
+}
 .imagen{
-    width: 40%;
+    width: 30%;
     height: auto;
-    align-items: flex-end;
     border-radius: 7%;
 }
 
-.footer{
-  background-color: brown;
+.dev{
+    padding-left: 31px;
+    font-size: 26px;
 }
+.text{
+    font-size: 26px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    position: relative;
+}
+.footer {
+    background: linear-gradient(
+      to right,
+      yellow 64%, /* Primer tercio amarillo */
+      red 2%, /* Segundo tercio rojo */
+      purple 89% /* Resto morado */
+    );
+    padding: 16px;
+  }
+  /* ICONOS */
+  .icon{
+    line-height: normal;
+  }
+  .bxl-github {
+    font-size: 50px;
+    color: gray;
+  }
+  .bxl-facebook-circle{
+    font-size: 50px;
+    color: gray;
+  }
